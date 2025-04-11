@@ -6,12 +6,12 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-# if SHIELD_CORNE_DONGLE_XIAO || SHIELD_CORNE_DONGLE_PRO_MICRO
+if SHIELD_CORNE_DONGLE_XIAO || SHIELD_CORNE_DONGLE_PRO_MICRO
 
-# config ZMK_USB
-#     default y
+config ZMK_USB
+    default y
 
-# endif
+endif
 
 endif
 
