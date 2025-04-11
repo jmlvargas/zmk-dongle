@@ -62,8 +62,8 @@ include:
     artifact-name: nice_corne_left_peripheral
 
   - board: nice_nano_v2
-    shield: corne_right_peripheral
-    artifact-name: nice_corne_right_peripheral
+    shield: corne_right
+    artifact-name: nice_corne_right
 
     ### ProMicro_Dongle START ###
     # nice_nano_v2 dongle
