@@ -7,12 +7,8 @@ requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
-  - display
-  - underglow
-  - studio
 siblings:
   - corne_left
   - corne_right
   - corne_left_peripheral
-  - corne_dongle_xiao
   - corne_dongle_pro_micro
